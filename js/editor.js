@@ -1,7 +1,8 @@
 var nodes = graph.nodes;
 var textArea = document.getElementById('editor');
-var maxNodesNumber = 12;
-
+var maxNodesNumber = 10;
+{/* <input type="text" id="myTextField">
+</input> */}
 function updateTextArea() {
     var size = nodes.length;
     var s = '' + size + '\n';
@@ -79,13 +80,9 @@ window.onload = function () {
 };
 
 function smallGraph() {
-    textArea.value = '6\n' +
-        '169 113\n' +
-        '-156 77\n' +
-        '-67 -149\n' +
-        '45 21\n' +
-        '132 -111\n' +
-        '-88 -28\n';
+  
+   
+        
     updateGraph();
 }
 

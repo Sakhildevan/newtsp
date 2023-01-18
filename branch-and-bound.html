@@ -31,7 +31,12 @@
                 <div class="btn green" onclick="solvePlanar(solveBranchAndBound);">Solve</div>
                 <div class="btn red" style="margin-right: 0;" onclick="stopAnimation(); reset();">Reset</div>
             </div>
-            <textarea id="editor"></textarea>
+            <input type="text" id='editor' placeholder="Enter no: nodes">
+            <input type="text" id="myTextField">
+            <input type="text" id="myTextField">
+            <input type="text" id="myTextField">
+            <input type="text" id="myTextField">
+        </input>
         </div>
         <div class="column" style="width:44%; border-right: 1px solid #707070">
             <div class="hint left top">
@@ -44,7 +49,7 @@
             <div id="tree"></div>
             <div id="info" class="hint left top"></div>
             <div class="hint right top">
-                <span style="color:#e9db28">Yellow</span> - start<br>
+                <span style="color:#e99528">Orange</span> - start<br>
                 <span style="color:#138412">Green</span> - result path<br>
                 <span style="color:#d51913">Red</span> - bad node<br>
                 Click a node for details

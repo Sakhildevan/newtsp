@@ -280,7 +280,7 @@ function displayState(state) {
     displayPath(state.path);
     info.innerHTML = '<b>Length:</b> ' + state.length.toFixed(3) + '<br>' +
         '<b>Approximation:</b> ' + state.approximation.toFixed(3) + '<br>' +
-        '<b>Path:</b> ' + state.path.join(' > ');
+        '<b>Path:</b> ' + state.path.join('-> ');
 }
 
 function stopAnimation() {

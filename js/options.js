@@ -21,10 +21,10 @@ var treeOptions = {
         },
         arrows: {
             to: {
-                enabled: false
+                enabled: true
             },
             from: {
-                enabled: false
+                enabled: true
             }
         },
         smooth: false,
@@ -70,7 +70,7 @@ var graphOptions = {
     edges: {
         arrows: {
             to: {
-                enabled: false
+                enabled: true
             },
             from: {
                 enabled: false
